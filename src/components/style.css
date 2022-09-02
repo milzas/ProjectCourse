@@ -103,6 +103,7 @@
   margin-top: 5px;
   background-color: #fff;
   border: 1px solid black;
+  cursor: pointer;
 }
 .dropElements p {
   border-bottom: 1px solid black;
@@ -114,4 +115,44 @@
   font-size: large;
   margin-bottom: 100px;
   cursor: pointer;
+}
+.BtnReturn {
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 200px;
+  height: 70px;
+  font-size: large;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+.FullMain {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+
+  background-color: rgba(226, 226, 226, 0.8);
+}
+.FullNewsCard img {
+  width: 80%;
+  height: 300px;
+  box-shadow: 3px 3px 20px lightblue;
+}
+.FullNewsCard {
+  box-shadow: 5px 5px 5px lightblue;
+  background-color: #fff;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  border: 1px solid black;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.returnLink {
+  color: black;
+  text-decoration: none;
 }

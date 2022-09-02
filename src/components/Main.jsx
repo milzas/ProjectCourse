@@ -33,11 +33,9 @@ const Main = () => {
 
   useEffect(() => {
     fetch();
-    console.log("fetch");
   }, [word, category, categoryNews]);
 
   const handleBtnMoreNews = async () => {
-    console.log(count);
     setCount(count + 20);
 
     // let news2 = news;
@@ -196,7 +194,6 @@ const Main = () => {
         {news
           .filter((item, index) => {
             if (index < count + 20) {
-              console.log(index);
               return true;
             } else {
               return false;
